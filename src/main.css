@@ -1,0 +1,129 @@
+.task-status {
+  height: 100px;
+}
+
+#tasks-pending,
+#tasks-onhold,
+#tasks-ongoing,
+#tasks-finished {
+  border: 2px solid black;
+}
+
+.tasks {
+  border: 3px solid black;
+}
+
+.new-task-btn {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  padding: 0px;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.new-task-btn svg {
+  height: 30px;
+  width: 30px;
+}
+
+.delete-task-btn {
+  display: block;
+  padding: 0px;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  margin-left: -40px;
+  margin-top: 5px;
+  border: none;
+}
+
+.delete-task-btn:hover {
+  border: none;
+}
+
+.delete-task-btn svg {
+  height: 18px;
+  width: 18px;
+  margin-bottom: 3px;
+}
+
+.task-status div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasks {
+  height: 800px;
+}
+
+.card-span {
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.card-span p {
+  margin: 1px;
+}
+
+strong {
+  color: rgb(121, 74, 164);
+  text-decoration: underline;
+}
+
+.card-span div {
+  border: 2px solid rgb(124, 69, 130);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.task {
+  padding: 15px;
+}
+
+.task:hover {
+  cursor: move;
+}
+
+.modal-title {
+  margin-left: 180px;
+}
+
+form label {
+  font-weight: 500;
+}
+
+.appearing {
+  animation: fade-in 1300ms forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fading {
+  animation: fade-out 1000ms forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.footer {
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  position: absolute;
+}

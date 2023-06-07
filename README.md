@@ -1,6 +1,6 @@
 # react-kanban-board
 ### Kanban Board App developed with React on Vite
-### <a href="https://react-kanban-board.onrender.com/">Deploy</a>
+### <a href="https://react-kanban-board-franco-ic.vercel.app/">Deploy</a>
 
 ### Functions:
   - Tasks CRUD
